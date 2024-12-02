@@ -30,7 +30,7 @@ echo_message "* Installed Panel"
 
 # Create directory, clone repository, and install files
 git clone --branch v0.2.2 https://github.com/WorldCraftLink/Panel
-cd WorldCraft/ || { echo_message "Failed to change directory to panel"; exit 1; }
+cd Panel/ || { echo_message "Failed to change directory to panel"; exit 1; }
 git branch
 git switch v0.2.2
 clear

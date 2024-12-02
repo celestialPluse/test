@@ -29,10 +29,10 @@ clear
 echo_message "* Installed Panel"
 
 # Create directory, clone repository, and install files
-git clone https://github.com/WorldCraftLink/WorldCraft
+git clone --branch v0.2.3 https://github.com/WorldCraftLink/Panel
 cd WorldCraft/ || { echo_message "Failed to change directory to panel"; exit 1; }
 git branch
-git switch v0.2.2
+git switch v0.2.3
 clear
 
 echo_message "* Installed Skyport"

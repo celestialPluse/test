@@ -23,8 +23,8 @@ fi
 echo_message "* Installed Node"
 
 # Create directory, clone repository, and install files
-git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd
-cd skyportd/ || { echo_message "Failed to change directory to panel"; exit 1; }
+git clone https://github.com/WorldCraftLink/WorldCraftd
+cd WorldCraftd/ || { echo_message "Failed to change directory to panel"; exit 1; }
 git branch
 git switch v0.2.2
 clear

@@ -39,8 +39,8 @@ echo_message "* Installed Skyport"
 
 # Create directory, clone repository, and install files
 cd ..
-mv WorldCraft Panel
-cd Panel/
+mv Panel WorldCraft
+cd WorldCraft/
 npm install
 clear
 

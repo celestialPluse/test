@@ -23,7 +23,7 @@ fi
 echo_message "* Installed Node"
 
 # Create directory, clone repository, and install files
-git clone --branch v0.2.3 https://github.com/WorldCraftLink/Daemon
+git clone https://github.com/WorldCraftLink/Daemon
 cd Daemon/ || { echo_message "Failed to change directory to panel"; exit 1; }
 git branch
 git switch v0.2.3
